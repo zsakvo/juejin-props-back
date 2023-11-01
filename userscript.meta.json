@@ -1,0 +1,12 @@
+{
+  "name": "掘金榜单属性找回",
+  "namespace": "https://zsakvo.cc",
+  "grant": ["none"],
+  "run-at": "document-end",
+  "include": ["*://juejin.cn/*"],
+  "require": [
+    "https://cdn.jsdelivr.net/npm/dayjs@2.0.0-alpha.4",
+    "https://cdn.jsdelivr.net/npm/dayjs@1/locale/zh-cn.js",
+    "https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"
+  ]
+}
